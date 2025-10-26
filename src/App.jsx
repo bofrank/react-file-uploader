@@ -1,11 +1,12 @@
-import Player from './components/Player.jsx';
-
 function App() {
   return (
-    <>
-      <Player />
-      <div id="challenges"></div>
-    </>
+    <div id="app">
+      <p>Please select an image</p>
+      <p>
+        <input data-testid="file-picker" type="file" accept="image/*" />
+        <button>Pick Image</button>
+      </p>
+    </div>
   );
 }
 
